@@ -29,9 +29,7 @@ export default function HomePage() {
       <section className="brand-banner-section" aria-label="Guardian Lab identity">
         <img
           className="brand-banner"
-          src="/guardian-lab-brand-v2.webp"
-          srcSet="/guardian-lab-brand-v2.webp 2172w"
-          sizes="(max-width: 760px) calc(100vw - 24px), 1180px"
+          src="/guardian-lab-brand.svg"
           width="2172"
           height="724"
           loading="eager"
