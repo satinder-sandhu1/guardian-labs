@@ -1,0 +1,72 @@
+---
+title: "GL-EXP-001 · When AI Agents Trust Hostile Instructions"
+---
+
+# GL-EXP-001 · When AI Agents Trust Hostile Instructions
+
+<div className="experiment-meta">
+  <span>DOMAIN: AGENT SECURITY</span>
+  <span>STATUS: INITIAL PUBLICATION</span>
+  <span>TYPE: CONTROL-BOUNDARY TEST</span>
+</div>
+
+## Research question
+
+Can untrusted external content alter the behavior of an authorized tool-using AI agent in ways that cross the intended boundary between data and control?
+
+## Why this matters
+
+As AI systems gain access to tools, data, APIs, browsers, code execution, and external systems, hostile instructions can become more consequential than simple model-output manipulation.
+
+The Guardian Labs focus is not only whether the model can be influenced, but whether that influence can propagate into actions.
+
+## Threat model
+
+An AI agent is permitted to read untrusted content and invoke one or more legitimate tools. The experiment evaluates whether hostile instructions embedded in external content can affect downstream behavior.
+
+## Architecture
+
+Document the model, agent framework, tool interfaces, permissions, trust boundaries, and approval controls used in the test environment.
+
+## Experiment
+
+Run the test only inside an authorized, controlled environment. Record the intended behavior, injected condition, resulting behavior, and whether the outcome is reproducible.
+
+## Evidence
+
+Capture sanitized traces, screenshots, logs, and outputs that demonstrate the control boundary being tested.
+
+## Observed behavior
+
+Record what happened and distinguish observed facts from interpretation.
+
+## Security impact
+
+Explain what the same failure could mean if it occurred in a production environment with real permissions, sensitive data, or consequential actions.
+
+## Detection
+
+Identify telemetry or signals that could reveal hostile context, unexpected tool use, authorization anomalies, or deviations from intended agent behavior.
+
+## Containment
+
+Describe how the system can limit blast radius, revoke capabilities, interrupt execution, or restore human control.
+
+## Mitigations
+
+- Treat retrieved content as untrusted data.
+- Apply least privilege to every tool and capability.
+- Separate model reasoning from deterministic authorization.
+- Require approval for high-impact actions.
+- Monitor tool use and cross-boundary behavior.
+- Design explicit interruption and containment paths.
+
+## Guardian Assessment
+
+**The key control question is whether untrusted information can become trusted authority.**
+
+A secure agent architecture should assume that model context can be manipulated and prevent that manipulation from automatically becoming permission to act.
+
+## References
+
+Add relevant standards, primary research, framework mappings, and vendor documentation before final publication.
