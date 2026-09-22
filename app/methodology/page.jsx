@@ -15,7 +15,7 @@ export default function MethodologyPage() {
       <section className="content-page shell">
         <p className="section-label">THE GUARDIAN DOCTRINE</p>
         <h1>Offensive by method. Defensive by mission. Evidence before assurance.</h1>
-        <p className="lead">Guardian Labs is built around a simple premise: AI security claims should survive adversarial testing. We do not treat policy, guardrails, benchmarks or model refusals as sufficient proof of control.</p>
+        <p className="lead">Guardian Lab is built around a simple premise: AI security claims should survive adversarial testing. We do not treat policy, guardrails, benchmarks or model refusals as sufficient proof of control.</p>
       </section>
 
       <section className="section shell">
