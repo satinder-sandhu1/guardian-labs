@@ -27,10 +27,13 @@ export default function HomePage() {
     <>
       <section className="hero shell hero-grid">
         <div>
-          <p className="eyebrow">GUARDIANS OF THE AI AGE // OFFENSIVE AI SECURITY</p>
-          <h1>When AI gains agency, security becomes a control problem.</h1>
+          <p className="eyebrow">GUARDIAN LABS // OFFENSIVE AI SECURITY FOR THE PUBLIC INTEREST</p>
+          <h1>We go to the edge of AI failure so the world does not have to.</h1>
           <p className="hero-copy">
-            Guardian Labs researches how advanced AI systems can be manipulated, over-authorized, deceived, chained, contaminated, or pushed beyond intended boundaries — then turns those failures into stronger controls, evidence and assurance.
+            Guardian Labs is built for the era in which AI systems can reason, remember, delegate, use tools, touch infrastructure and act with growing autonomy. Our role is to stand guard at that frontier — to attack the assumptions, break the controls, expose the hidden failure paths and prove what actually keeps powerful AI contained, accountable and under human authority.
+          </p>
+          <p className="hero-copy">
+            We are not here to make AI look safe. We are here to find where it is not — before those weaknesses become incidents, systemic failures or loss of control.
           </p>
           <div className="hero-actions">
             <a className="button primary" href="/research">Enter the Research Lab</a>
@@ -38,21 +41,34 @@ export default function HomePage() {
           </div>
         </div>
         <aside className="hero-console">
-          <div className="console-head"><span>GUARDIAN CONTROL SURFACE</span><span className="status-dot">LIVE</span></div>
-          <div className="console-row"><span>MODEL</span><b>Reasoning / Multimodal / Tool-Using</b></div>
-          <div className="console-row"><span>AGENCY</span><b>Planning · Memory · Delegation · Action</b></div>
-          <div className="console-row"><span>EXPOSURE</span><b>APIs · Browsers · Code · Data · Infrastructure</b></div>
-          <div className="console-row"><span>FAILURE MODES</span><b>Manipulation · Overreach · Drift · Cascades</b></div>
-          <div className="console-row"><span>GUARDIAN OBJECTIVE</span><b>OBSERVE → CONSTRAIN → INTERRUPT → PROVE</b></div>
+          <div className="console-head"><span>GUARDIAN MANDATE</span><span className="status-dot">ACTIVE</span></div>
+          <div className="console-row"><span>PROTECT</span><b>PEOPLE · SYSTEMS · INSTITUTIONS · CRITICAL INFRASTRUCTURE</b></div>
+          <div className="console-row"><span>CONFRONT</span><b>MANIPULATION · EXCESSIVE AGENCY · CONTROL FAILURE · CASCADING AUTONOMY</b></div>
+          <div className="console-row"><span>OPERATE</span><b>OFFENSIVE RESEARCH · ADVERSARIAL TESTING · CONTAINMENT · ASSURANCE</b></div>
+          <div className="console-row"><span>STANDARD</span><b>ASSUME FAILURE · TEST AUTHORITY · CHAIN WEAKNESSES · DEMAND EVIDENCE</b></div>
+          <div className="console-row"><span>ULTIMATE OBJECTIVE</span><b>POWERFUL AI THAT REMAINS UNDER MEANINGFUL HUMAN CONTROL</b></div>
         </aside>
       </section>
 
       <section className="section shell thesis-band">
-        <p className="section-label">THE GUARDIAN THESIS</p>
-        <h2>Capability without control becomes risk. Autonomy without assurance becomes exposure.</h2>
+        <p className="section-label">WHY GUARDIAN LABS EXISTS</p>
+        <h2>As AI gains power, the world needs institutions whose job is to challenge that power.</h2>
         <div className="split-copy">
-          <p className="lead">The security challenge is no longer limited to whether an attacker can compromise an AI model. The deeper problem is whether an AI-enabled system can remain trustworthy when its context, memory, tools, permissions, environment, or objectives become adversarial.</p>
-          <p className="lead">Guardian Labs studies that boundary: the point where intelligence becomes action, action gains authority, and a software defect can become a control failure with real-world consequences.</p>
+          <p className="lead">The next generation of AI will not remain inside a chat window. It will operate across software, data, money, infrastructure, workflows, devices and other agents. The security question is therefore larger than whether a model can be hacked. It is whether increasingly autonomous systems can be trusted when conditions become adversarial, ambiguous or outside their designers’ expectations.</p>
+          <p className="lead">Guardian Labs exists to be an independent adversarial force on the side of control: push harder, probe deeper and ask the questions that product teams, operators and institutions cannot afford to leave unanswered.</p>
+        </div>
+      </section>
+
+      <section className="section dark-band">
+        <div className="shell">
+          <p className="section-label">THE GUARDIAN MANDATE</p>
+          <h2>Protect by going further into the failure modes than the threat does.</h2>
+          <div className="mandate-grid">
+            <article><h3>Find the unseen path.</h3><p>Search beyond obvious prompt attacks for chained failures across memory, tools, identity, delegation, permissions, infrastructure and human oversight.</p></article>
+            <article><h3>Challenge every claim of control.</h3><p>Do not accept “safe,” “aligned,” “sandboxed,” “approved,” or “human-in-the-loop” as conclusions. Treat them as hypotheses that must survive adversarial testing.</p></article>
+            <article><h3>Contain before capability scales.</h3><p>Study the controls required to bound autonomy, reduce blast radius, preserve intervention and stop local failures from becoming systemic ones.</p></article>
+            <article><h3>Turn evidence into protection.</h3><p>Translate offensive findings into architectures, detections, controls, assurance evidence and public knowledge that strengthen the wider AI ecosystem.</p></article>
+          </div>
         </div>
       </section>
 
@@ -78,7 +94,7 @@ export default function HomePage() {
       <section className="section dark-band">
         <div className="shell">
           <p className="section-label">THE ADVERSARIAL CONTROL MATRIX</p>
-          <h2>We test what happens when every trust boundary is treated as attackable.</h2>
+          <h2>Every boundary that grants AI influence, authority or persistence is a security boundary.</h2>
           <div className="matrix-wrap">
             <div className="matrix-row matrix-head"><span>SURFACE</span><span>ADVERSARIAL QUESTION</span><span>GUARDIAN CONTROL OBJECTIVE</span></div>
             <div className="matrix-row"><span>Context</span><span>Can untrusted data become instructions?</span><span>Separate data from authority.</span></div>
@@ -94,7 +110,7 @@ export default function HomePage() {
 
       <section className="section shell">
         <p className="section-label">GUARDIAN DOCTRINE</p>
-        <h2>Offense is a method. Control is the objective. Evidence is the standard.</h2>
+        <h2>Offense is a method. Protection is the purpose. Control is the objective. Evidence is the standard.</h2>
         <div className="doctrine-grid">
           {doctrine.map(([title, body]) => (
             <article className="doctrine-card" key={title}><h3>{title}</h3><p>{body}</p></article>
@@ -121,9 +137,9 @@ export default function HomePage() {
       </section>
 
       <section className="closing shell">
-        <p className="section-label">GUARDIAN LABS</p>
-        <h2>Guard the model. Guard the agent. Guard the authority. Guard the boundary.</h2>
-        <p className="lead">The objective is not weaker AI. It is powerful AI that remains observable, constrained, accountable, interruptible and worthy of trust.</p>
+        <p className="section-label">THE PURPOSE</p>
+        <h2>AI capability will continue to advance. Guardian Labs exists to make sure control advances with it.</h2>
+        <p className="lead">Guard the model. Guard the agent. Guard the authority. Guard the boundary. Protect the future.</p>
       </section>
     </>
   )
