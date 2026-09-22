@@ -6,7 +6,7 @@ export const metadata = {
     template: '%s | Guardian Labs'
   },
   description:
-    'Guardian Labs is a frontier AI offensive security, control, risk and assurance research organization focused on keeping increasingly autonomous AI secure, bounded, observable and under meaningful human control.'
+    'Guardian Labs is an independent frontier AI security research organization dedicated to protecting society by stress-testing, breaking, containing and assuring increasingly autonomous AI systems.'
 }
 
 export default function RootLayout({ children }) {
@@ -21,10 +21,7 @@ export default function RootLayout({ children }) {
         </div>
         <header className="site-header">
           <div className="shell nav-wrap">
-            <a className="brand" href="/">
-              <span className="brand-mark">G</span>
-              <span>GUARDIAN LABS</span>
-            </a>
+            <a className="brand" href="/">GUARDIAN LABS</a>
             <nav className="nav-links">
               <a href="/research">Research</a>
               <a href="/experiments">Experiments</a>
@@ -37,16 +34,16 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="shell footer-grid">
             <div>
-              <div className="brand footer-brand"><span className="brand-mark">G</span><span>GUARDIAN LABS</span></div>
+              <div className="brand footer-brand">GUARDIAN LABS</div>
               <p>Guardians of the AI Age.</p>
             </div>
             <div>
               <p className="footer-kicker">MISSION</p>
-              <p>Keep increasingly capable AI secure, bounded, observable, interruptible and under meaningful human control.</p>
+              <p>Stand guard at the boundary between powerful AI capability and the systems, people and institutions that depend on it.</p>
             </div>
             <div>
               <p className="footer-kicker">OPERATING PRINCIPLE</p>
-              <p>Offensive by method. Defensive by mission. Evidence before assurance.</p>
+              <p>Go further into the failure modes than attackers will — so defenders, operators and society do not have to learn first in production.</p>
             </div>
           </div>
         </footer>
