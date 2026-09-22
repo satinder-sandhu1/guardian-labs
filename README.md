@@ -1,10 +1,10 @@
-# Guardian Labs
+# Guardian Lab
 
-Guardian Labs is an independent AI security research lab focused on keeping increasingly capable and autonomous AI secure, bounded, observable, interruptible, and under meaningful human control.
+Guardian Lab is an independent AI security research organization focused on keeping increasingly capable and autonomous AI secure, bounded, observable, interruptible, and under meaningful human control.
 
 ## V1 architecture
 
-GitHub → Markdown/MDX → Next.js + Nextra → Vercel
+GitHub → Next.js → Vercel
 
 ## Local development
 
@@ -27,7 +27,7 @@ Only sanitized, approved public research belongs in this repository.
 
 V1 contains:
 
-- Guardian Labs homepage and mission
+- Guardian Lab homepage and mission
 - Research index
 - Agent Security, Prompt Injection, MCP Security and Model Security sections
 - GL-EXP-001 first experiment page
@@ -36,4 +36,4 @@ V1 contains:
 
 ## Deployment
 
-Import this repository into Vercel and connect `guardianlab.org` as the custom domain.
+Import this repository into Vercel and connect the production custom domain.
