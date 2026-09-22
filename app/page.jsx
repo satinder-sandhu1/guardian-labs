@@ -27,10 +27,10 @@ export default function HomePage() {
     <>
       <section className="hero shell hero-grid">
         <div>
-          <p className="eyebrow">GUARDIAN LABS // OFFENSIVE AI SECURITY FOR THE PUBLIC INTEREST</p>
+          <p className="eyebrow">GUARDIAN LAB // OFFENSIVE AI SECURITY FOR THE PUBLIC INTEREST</p>
           <h1>We go to the edge of AI failure so the world does not have to.</h1>
           <p className="hero-copy">
-            Guardian Labs is built for the era in which AI systems can reason, remember, delegate, use tools, touch infrastructure and act with growing autonomy. Our role is to stand guard at that frontier — to attack the assumptions, break the controls, expose the hidden failure paths and prove what actually keeps powerful AI contained, accountable and under human authority.
+            Guardian Lab is built for the era in which AI systems can reason, remember, delegate, use tools, touch infrastructure and act with growing autonomy. Our role is to stand guard at that frontier — to attack the assumptions, break the controls, expose the hidden failure paths and prove what actually keeps powerful AI contained, accountable and under human authority.
           </p>
           <p className="hero-copy">
             We are not here to make AI look safe. We are here to find where it is not — before those weaknesses become incidents, systemic failures or loss of control.
@@ -51,11 +51,11 @@ export default function HomePage() {
       </section>
 
       <section className="section shell thesis-band">
-        <p className="section-label">WHY GUARDIAN LABS EXISTS</p>
+        <p className="section-label">WHY GUARDIAN LAB EXISTS</p>
         <h2>As AI gains power, the world needs institutions whose job is to challenge that power.</h2>
         <div className="split-copy">
           <p className="lead">The next generation of AI will not remain inside a chat window. It will operate across software, data, money, infrastructure, workflows, devices and other agents. The security question is therefore larger than whether a model can be hacked. It is whether increasingly autonomous systems can be trusted when conditions become adversarial, ambiguous or outside their designers’ expectations.</p>
-          <p className="lead">Guardian Labs exists to be an independent adversarial force on the side of control: push harder, probe deeper and ask the questions that product teams, operators and institutions cannot afford to leave unanswered.</p>
+          <p className="lead">Guardian Lab exists to be an independent adversarial force on the side of control: push harder, probe deeper and ask the questions that product teams, operators and institutions cannot afford to leave unanswered.</p>
         </div>
       </section>
 
@@ -138,7 +138,7 @@ export default function HomePage() {
 
       <section className="closing shell">
         <p className="section-label">THE PURPOSE</p>
-        <h2>AI capability will continue to advance. Guardian Labs exists to make sure control advances with it.</h2>
+        <h2>AI capability will continue to advance. Guardian Lab exists to make sure control advances with it.</h2>
         <p className="lead">Guard the model. Guard the agent. Guard the authority. Guard the boundary. Protect the future.</p>
       </section>
     </>
