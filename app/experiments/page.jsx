@@ -37,7 +37,7 @@ export default function ExperimentsPage() {
       <section className="section shell">
         <p className="section-label">THREAT MODEL</p>
         <h2>The model is not the only thing that can be adversarial.</h2>
-        <p className="lead">The system under test consumes external content and can invoke one or more authorized tools. Guardian Labs evaluates whether hostile instructions embedded in that content can alter model intent, influence tool selection, or cause the system to cross a boundary its operator believed was protected.</p>
+        <p className="lead">The system under test consumes external content and can invoke one or more authorized tools. Guardian Lab evaluates whether hostile instructions embedded in that content can alter model intent, influence tool selection, or cause the system to cross a boundary its operator believed was protected.</p>
         <div className="attack-chain">
           {['UNTRUSTED CONTENT','MODEL CONTEXT','AGENT REASONING','TOOL SELECTION','AUTHORIZATION','REAL-WORLD ACTION'].map((item, i) => (
             <div className="attack-node" key={item}><span>{String(i+1).padStart(2,'0')}</span><b>{item}</b></div>
