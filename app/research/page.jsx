@@ -28,7 +28,7 @@ export default function ResearchPage() {
       <section className="content-page shell research-hero">
         <p className="section-label">GUARDIAN RESEARCH PROGRAM</p>
         <h1>Map the full AI attack surface. Test the limits of control.</h1>
-        <p className="lead">Guardian Labs treats the AI system as an adversarial control stack — not a standalone model. Our research spans the model, context, memory, identities, tools, agent graph, infrastructure and human intervention layer.</p>
+        <p className="lead">Guardian Lab treats the AI system as an adversarial control stack — not a standalone model. Our research spans the model, context, memory, identities, tools, agent graph, infrastructure and human intervention layer.</p>
       </section>
 
       <section className="section shell">
