@@ -26,11 +26,18 @@ const doctrine = [
 export default function HomePage() {
   return (
     <>
-      <section className="shell" aria-label="Guardian Lab identity" style={{ padding: '34px 0 8px' }}>
+      <section className="brand-banner-section" aria-label="Guardian Lab identity">
         <img
-          src="/guardian-lab-brand.webp"
+          className="brand-banner"
+          src="/guardian-lab-brand-v2.webp"
+          srcSet="/guardian-lab-brand-v2.webp 2172w"
+          sizes="(max-width: 760px) calc(100vw - 24px), 1180px"
+          width="2172"
+          height="724"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
           alt="Guardian Lab — Breaking AI Before It Breaks Free. Adversarial Science for the Control and Assurance of Machine Intelligence."
-          style={{ display: 'block', width: '100%', height: 'auto', background: '#000', border: '1px solid #1c2632' }}
         />
       </section>
 
