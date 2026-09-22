@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
             <div>
               <div className="brand footer-brand">GUARDIAN LABS</div>
               <p>Guardians of the AI Age.</p>
+              <p><a href="mailto:contact@securityassured.ca">contact@securityassured.ca</a></p>
             </div>
             <div>
               <p className="footer-kicker">MISSION</p>
