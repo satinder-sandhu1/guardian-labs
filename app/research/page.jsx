@@ -8,18 +8,20 @@ const domains = [
   ['GL-RP-07', 'Multi-Agent Security', ['Emergent attack paths', 'Agent collusion', 'Cascading failure', 'Recursive delegation', 'Trust graph compromise']],
   ['GL-RP-08', 'Runtime & Containment', ['Sandbox boundaries', 'Network egress', 'Secrets exposure', 'Execution isolation', 'Killability']],
   ['GL-RP-09', 'Adversarial ML', ['Evasion', 'Extraction', 'Poisoning', 'Robustness failure', 'Model behavior under adversarial input']],
-  ['GL-RP-10', 'AI Risk & Assurance', ['Attack-informed assurance', 'Evidence quality', 'Control validation', 'Residual risk', 'Operational readiness']]
+  ['GL-RP-10', 'Advanced Intelligence Control', ['Deceptive behavior', 'Emergent objectives', 'Strategic autonomy', 'Resistance to intervention', 'Uncontrolled replication or delegation', 'Offensive capability escalation']],
+  ['GL-RP-11', 'AI Risk & Assurance', ['Attack-informed assurance', 'Evidence quality', 'Control validation', 'Residual risk', 'Operational readiness']]
 ]
 
 const layers = [
-  ['01', 'Model', 'What can manipulate or distort model behavior?'],
+  ['01', 'Model', 'What can manipulate, distort or emerge from model behavior?'],
   ['02', 'Context', 'What can enter the reasoning boundary and become trusted?'],
-  ['03', 'Memory', 'What hostile state can persist?'],
+  ['03', 'Memory', 'What hostile or self-serving state can persist?'],
   ['04', 'Identity', 'Who or what is the agent allowed to become?'],
   ['05', 'Tools', 'What real-world capabilities can model output invoke?'],
-  ['06', 'Agents', 'How can delegation amplify local failure?'],
-  ['07', 'Infrastructure', 'What systems, secrets and control planes are reachable?'],
-  ['08', 'Human Control', 'Can humans still see, stop and reconstruct consequential action?']
+  ['06', 'Agents', 'How can delegation amplify local failure or autonomy?'],
+  ['07', 'Infrastructure', 'What systems, secrets, networks and control planes are reachable?'],
+  ['08', 'Autonomy', 'Can the system pursue strategies or actions beyond intended human authority?'],
+  ['09', 'Human Control', 'Can humans still understand, interrupt, contain and reconstruct consequential action?']
 ]
 
 export default function ResearchPage() {
@@ -27,8 +29,8 @@ export default function ResearchPage() {
     <>
       <section className="content-page shell research-hero">
         <p className="section-label">GUARDIAN RESEARCH PROGRAM</p>
-        <h1>Map the full AI attack surface. Test the limits of control.</h1>
-        <p className="lead">Guardian Lab treats the AI system as an adversarial control stack — not a standalone model. Our research spans the model, context, memory, identities, tools, agent graph, infrastructure and human intervention layer.</p>
+        <h1>Research the point where artificial intelligence becomes a security actor.</h1>
+        <p className="lead">Guardian Lab studies more than attacks against AI. We study the transition from model to agent, from agent to authority, and from authority to autonomous action — including the possibility that advanced intelligence itself becomes deceptive, uncontrollable or offensively capable.</p>
       </section>
 
       <section className="section shell">
@@ -44,7 +46,7 @@ export default function ResearchPage() {
 
       <section className="section shell">
         <p className="section-label">RESEARCH DOMAINS</p>
-        <h2>Ten offensive research programs. One control objective.</h2>
+        <h2>External attacks, compromised systems, emergent autonomy — one control mission.</h2>
         <div className="research-domain-grid">
           {domains.map(([id, title, items]) => (
             <article className="research-domain" key={id}>
@@ -59,16 +61,18 @@ export default function ResearchPage() {
       <section className="section dark-band">
         <div className="shell">
           <p className="section-label">RESEARCH QUESTIONS</p>
-          <h2>Questions we believe define the next era of AI security.</h2>
+          <h2>Questions that define security in the age of advanced intelligence.</h2>
           <div className="question-grid">
             <p>Can an AI agent be trusted when the information it consumes is hostile?</p>
             <p>Can sensitive actions remain safe when the reasoning engine is probabilistic?</p>
             <p>Can delegated authority be bounded across chains of agents and tools?</p>
-            <p>Can persistent memory become a long-lived attack surface?</p>
+            <p>Can persistent memory become a long-lived attack surface or a substrate for self-serving behavior?</p>
             <p>Can operators detect when an autonomous system is drifting outside intended behavior?</p>
-            <p>Can humans still interrupt, contain and reconstruct high-impact AI actions?</p>
+            <p>Can a system strategically conceal behavior, manipulate oversight or resist intervention?</p>
+            <p>Can humans reliably interrupt and contain a system whose planning speed exceeds human response time?</p>
+            <p>Can controls remain effective if the intelligence being controlled becomes more capable than the control logic surrounding it?</p>
+            <p>Can offensive cyber, financial, information or infrastructure capabilities emerge from general-purpose autonomy?</p>
             <p>Can assurance claims be proven with adversarial evidence instead of documentation alone?</p>
-            <p>Can a system fail safely when model behavior is uncertain but consequences are not?</p>
           </div>
         </div>
       </section>
