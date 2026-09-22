@@ -2,9 +2,9 @@ export default function AboutPage() {
   return (
     <>
       <section className="content-page shell">
-        <p className="section-label">ABOUT GUARDIAN LABS</p>
-        <h1>Guardians of the AI Age.</h1>
-        <p className="lead">Guardian Labs is an independent frontier AI security, risk and assurance research organization focused on one question: how do we keep increasingly capable, connected and autonomous AI under meaningful human control?</p>
+        <p className="section-label">ABOUT GUARDIAN LAB</p>
+        <h1>Guardian of the AI Age.</h1>
+        <p className="lead">Guardian Lab is an independent frontier AI security, risk and assurance research organization focused on one question: how do we keep increasingly capable, connected and autonomous AI under meaningful human control?</p>
       </section>
 
       <section className="section shell">
