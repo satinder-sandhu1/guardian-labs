@@ -6,7 +6,7 @@ export const metadata = {
     template: '%s | Guardian Lab'
   },
   description:
-    'Guardian Lab is an independent frontier AI security research organization dedicated to protecting society by stress-testing, breaking, containing and assuring increasingly autonomous AI systems.'
+    'Guardian Lab is an independent frontier AI security and control research organization dedicated to protecting society from adversarial misuse, loss of control, and advanced AI systems whose own behavior becomes dangerous or hostile.'
 }
 
 export default function RootLayout({ children }) {
@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
       <body>
         <div className="signal-bar">
           <div className="shell signal-inner">
-            <span>GUARDIAN LAB // FRONTIER AI SECURITY RESEARCH</span>
-            <span>OFFENSIVE SECURITY · CONTROL · RISK · ASSURANCE</span>
+            <span>GUARDIAN LAB // FRONTIER AI SECURITY & CONTROL RESEARCH</span>
+            <span>OFFENSIVE SECURITY · AI CONTROL · CONTAINMENT · RISK · ASSURANCE</span>
           </div>
         </div>
         <header className="site-header">
@@ -40,11 +40,11 @@ export default function RootLayout({ children }) {
             </div>
             <div>
               <p className="footer-kicker">MISSION</p>
-              <p>Stand guard at the boundary between powerful AI capability and the systems, people and institutions that depend on it.</p>
+              <p>Protect people, institutions and critical systems from both adversaries who weaponize AI and advanced intelligence that escapes intended human control.</p>
             </div>
             <div>
               <p className="footer-kicker">OPERATING PRINCIPLE</p>
-              <p>Go further into the failure modes than attackers will — so defenders, operators and society do not have to learn first in production.</p>
+              <p>Prepare for the moment the threat is no longer only outside the AI system — but can emerge from the intelligence, autonomy and capabilities inside it.</p>
             </div>
           </div>
         </footer>
