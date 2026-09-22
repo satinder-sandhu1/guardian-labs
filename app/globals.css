@@ -40,7 +40,7 @@ a { color: inherit; }
 .nav-links a { text-decoration: none; color: var(--muted); font-size: .86rem; font-weight: 650; }
 .nav-links a:hover { color: var(--accent); }
 
-.hero { padding: 110px 0 92px; }
+.hero { padding: 28px 0 92px; }
 .hero-grid { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(320px,.65fr); gap: 70px; align-items: end; }
 .eyebrow, .section-label { font-size: .7rem; letter-spacing: .18em; font-weight: 850; color: var(--accent); text-transform: uppercase; }
 .hero h1 { max-width: 900px; margin: 18px 0 0; font-size: clamp(3.1rem, 7vw, 6.7rem); line-height: .93; letter-spacing: -0.065em; font-weight: 850; }
@@ -167,7 +167,7 @@ a { color: inherit; }
   .signal-inner { align-items:flex-start; flex-direction:column; padding:8px 0; }
   .nav-wrap { align-items:flex-start; flex-direction:column; padding:18px 0; }
   .nav-links { gap:14px 20px; }
-  .hero { padding:76px 0 70px; }
+  .hero { padding:36px 0 70px; }
   .hero h1 { font-size:clamp(3rem,15vw,5.3rem); }
   .split-copy, .research-domain-grid, .question-grid, .control-grid, .assurance-grid, .mandate-grid, .footer-grid { grid-template-columns:1fr; }
   .program-grid, .doctrine-grid, .stack-grid, .phase-grid, .evidence-grid { grid-template-columns:1fr; }
