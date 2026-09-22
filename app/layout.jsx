@@ -2,11 +2,11 @@ import './globals.css'
 
 export const metadata = {
   title: {
-    default: 'Guardian Labs',
-    template: '%s | Guardian Labs'
+    default: 'Guardian Lab',
+    template: '%s | Guardian Lab'
   },
   description:
-    'Guardian Labs is an independent frontier AI security research organization dedicated to protecting society by stress-testing, breaking, containing and assuring increasingly autonomous AI systems.'
+    'Guardian Lab is an independent frontier AI security research organization dedicated to protecting society by stress-testing, breaking, containing and assuring increasingly autonomous AI systems.'
 }
 
 export default function RootLayout({ children }) {
@@ -15,13 +15,13 @@ export default function RootLayout({ children }) {
       <body>
         <div className="signal-bar">
           <div className="shell signal-inner">
-            <span>GUARDIAN LABS // FRONTIER AI SECURITY RESEARCH</span>
+            <span>GUARDIAN LAB // FRONTIER AI SECURITY RESEARCH</span>
             <span>OFFENSIVE SECURITY · CONTROL · RISK · ASSURANCE</span>
           </div>
         </div>
         <header className="site-header">
           <div className="shell nav-wrap">
-            <a className="brand" href="/">GUARDIAN LABS</a>
+            <a className="brand" href="/">GUARDIAN LAB</a>
             <nav className="nav-links">
               <a href="/research">Research</a>
               <a href="/experiments">Experiments</a>
@@ -34,8 +34,8 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="shell footer-grid">
             <div>
-              <div className="brand footer-brand">GUARDIAN LABS</div>
-              <p>Guardians of the AI Age.</p>
+              <div className="brand footer-brand">GUARDIAN LAB</div>
+              <p>Guardian of the AI Age.</p>
               <p><a href="mailto:contact@securityassured.ca">contact@securityassured.ca</a></p>
             </div>
             <div>
