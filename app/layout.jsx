@@ -13,12 +13,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="signal-bar">
-          <div className="shell signal-inner">
-            <span>GUARDIAN LAB // FRONTIER AI SECURITY & CONTROL RESEARCH</span>
-            <span>OFFENSIVE SECURITY · AI CONTROL · CONTAINMENT · RISK · ASSURANCE</span>
-          </div>
-        </div>
         <header className="site-header">
           <div className="shell nav-wrap">
             <a className="brand" href="/">GUARDIAN LAB</a>
