@@ -1,3 +1,5 @@
+import GuardianBanner from './GuardianBanner'
+
 const programs = [
   ['01', 'Agentic Attack Surface', 'Autonomous planning, tool invocation, delegation, excessive agency, chained actions and loss of operator control.'],
   ['02', 'Prompt & Context Exploitation', 'Direct and indirect prompt injection, context poisoning, instruction/data confusion, retrieval manipulation and control-plane bypass.'],
@@ -26,18 +28,7 @@ const doctrine = [
 export default function HomePage() {
   return (
     <>
-      <section className="brand-banner-section" aria-label="Guardian Lab identity">
-        <img
-          className="brand-banner"
-          src="/guardian-lab-brand.svg"
-          width="2172"
-          height="724"
-          loading="eager"
-          fetchPriority="high"
-          decoding="async"
-          alt="Guardian Lab — Breaking AI Before It Breaks Free. Adversarial Science for the Control and Assurance of Machine Intelligence."
-        />
-      </section>
+      <GuardianBanner />
 
       <section className="hero shell hero-grid">
         <div>
