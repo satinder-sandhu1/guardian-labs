@@ -3,7 +3,7 @@ export default function GuardianBanner() {
     <section className="brand-banner-section" aria-label="Guardian Lab identity">
       <img
         className="brand-banner"
-        src="/guardian-lab-logo.png"
+        src="/guardian-lab-logo.png?v=20260922-final"
         width="2048"
         height="682"
         loading="eager"
